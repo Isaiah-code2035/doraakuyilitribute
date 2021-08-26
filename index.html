@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        html {
+            /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+            font-size: 10px;
+        }
+        
+        body {
+            /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 1.6rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #333;
+            margin: 0;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 0;
+        }
+        
+        @media (max-width: 460px) {
+            h1 {
+                font-size: 3.5rem;
+                line-height: 1.2;
+            }
+        }
+        
+        h2 {
+            font-size: 3.25rem;
+        }
+        
+        a {
+            color: #477ca7;
+        }
+        
+        a:visited {
+            color: #74638f;
+        }
+        
+        #main {
+            margin: 30px 8px;
+            padding: 15px;
+            border-radius: 5px;
+            background: #eee;
+        }
+        
+        @media (max-width: 460px) {
+            #main {
+                margin: 0;
+            }
+        }
+        
+        img {
+            width: 100%;
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+        }
+        
+        #img-div {
+            background: white;
+            padding: 10px;
+            margin: 0;
+        }
+        
+        #img-caption {
+            margin: 15px 0 5px 0;
+        }
+        
+        @media (max-width: 460px) {
+            #img-caption {
+                font-size: 1.4rem;
+            }
+        }
+        
+        #headline {
+            margin: 50px 0;
+            text-align: center;
+        }
+        
+        ul {
+            max-width: 550px;
+            margin: 0 auto 50px auto;
+            text-align: left;
+            line-height: 1.6;
+        }
+        
+        li {
+            margin: 16px 0;
+        }
+        
+        blockquote {
+            font-style: italic;
+            max-width: 545px;
+            margin: 0 auto 50px auto;
+            text-align: left;
+        }
+    </style>
+    <main id="main">
+        <h1 id="title">Dora Akuyuli OFR</h1>
+        <p><i>The woman who saved Nigeria from fake drugs</i> </p>
+        <figure id="img-div">
+            <img src="images.jpg" alt="Dr Dora Akuyuli">
+            <figcaption id="img-caption">
+                Dr. Dora Akuyuli
+            </figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h3 id="headline">Here's a time line of Dr. Dora Akuyili's life:</h3>
+            <ul>
+                <li><strong>1954</strong> - Born in Benue, Nigeria to a family from Anambra State Nigeria</li>
+                <li>
+                    <strong>1966</strong> - She received her First School Leaving Certificate from St. Patrick’s Primary School, Isuofia, Anambra State.
+                </li>
+                <li>
+                    <strong>1973</strong> - She had her West African School Certificate Examination (W.A.S.C) at Queen of the Rosary Secondary School Nsukka, Enugu state in 1973, where she graduated with Grade I Distinction.
+                </li>
+                <li>
+                    <strong>1974</strong> - she won the Eastern Nigerian Government Post Primary Scholarship and the Federal Government of Nigeria Undergraduate Scholarship.
+                </li>
+                <li>
+                    <strong>1974</strong> - She gained admission to study Pharmacology at the University of Nigeria (UNN).
+                </li>
+                <li>
+                    <strong>1978</strong> - She graduated from the University of Nigeria, Nsukka.
+                </li>
+                <li>
+                    <strong>1985</strong> - Receives a Ph.D. in ethnopharmacology in 1985.
+                </li>
+                <li>
+                    <strong>1981</strong> - She became a Graduate Assistant in the Faculty of Pharmaceutical Sciences, UNN.
+                </li>
+                <li>
+                    <strong>1990</strong> - In 1990, she became a Senior Lecturer and in 1996, she was made a Consultant Pharmacologist at the College of Medicine.
+                </li>
+                <li>
+                    <strong>1996</strong> - In 1996, Akunyili became Zonal Secretary of the Petroleum Special Trust Fund (P.T.F), coordinating projects funded by profits from oil in Nigeria's southeastern states.
+                </li>
+                <li>
+                    <strong>2001</strong> - President Olusegun Obasanjo appointed her the Director-General of the National Agency for Food and Drug Administration and Control (NAFDAC)
+                </li>
+                <li><strong>2006</strong> - She is reported to have secured convictions for 45 counterfeiters with 56 cases pending. Her efforts led to increased public awareness about counterfeit drugs and more direct and purposeful surveillance at Nigerian
+                    customs
+                </li>
+                <li>
+                    <strong>2005</strong> - Received an award as the Most Innovative Director Award Federal Government College, Ijanikin, Lagos
+                </li>
+                <li>
+                    <strong>2012</strong> - She published a book: The War Against Counterfeit Medicine: My Story.
+                </li>
+                <li>
+                    <strong>2008</strong> - In 2008, Akunyili was appointed Minister of Information and Communications.
+                </li>
+                <li><strong>2014</strong> - died at the age of 60.</li>
+            </ul>
+            <blockquote cite="https://en.wikipedia.org/wiki/Dora_Akunyili">
+                <p>
+                    "Dora Akunyili has fearlessly battled the greed and ignorance that had allowed drug counterfeiting to thrive in Nigeria.Since she became head of the National Agency of Food and Drug Administration (NAFDAC) in 2001, the proportion of drugs sold in Nigeria
+                    that are fake has dropped from 70% to about 10%"
+                </p>
+                <cite>-- Anne Harding</cite>
+            </blockquote>
+            <h3>
+                If you have time, you should read more about this amazing woman on her:
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/Dora_Akunyili" target="_blank">Wikipedia Page</a
+              >.
+            </h3>
+          </section>
+        </main>
+    </body>
+</html>
